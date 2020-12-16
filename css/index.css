@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('../font/slkscr.ttf');
+}
+
+body {
+    overflow: hidden;
+    background-color: black;
+    margin: 0;
+}
+
+#canvas {
+    width: 100vw;
+    height: 56.25vw; /* 100/56.25 = 1.778 */
+    max-height: 100vh;
+    max-width: 177.78vh; /* 16/9 = 1.778 */
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
